@@ -12,4 +12,5 @@
 
 - taskkill /pid 9456 -f
 
-  
+  JAVA_HOME
+
