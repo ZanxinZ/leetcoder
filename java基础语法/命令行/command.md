@@ -10,7 +10,8 @@
 
 - kill the process which pid is 9456
 
-- taskkill /pid 9456 -f
+  taskkill /pid 9456 -f
 
   JAVA_HOME
+
 
