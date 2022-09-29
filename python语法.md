@@ -16,14 +16,14 @@ for item in s:
   
 length = len(s) #取长度
 
-#Join
+# Join
 set1 = {"a", "b", 1}
 set2 = {1, 3}
 set3 = set1.union(set2)  # return a new set with all item from set1 and set2
 
 set1.update(set2)        # insert the items in set2 into set1.
 
-#operation
+# operation
 
 set1.clear()
 setCom = set1.intersection(set2)  # return a set that is the intersection of two sets.
@@ -72,14 +72,28 @@ q.pop(0)     // pop the first element
 ## 字典的插入与删除
 
 ```python
-#以字符串形式存 key-value
+# 以字符串形式存 key-value
 d = dict()
 
-d["amy"] = "23"  #存
+d["amy"] = "23"  # 存
 
-s = d.get("amy") #取
+s = d.get("amy") # 取
 
 # 判断是否在字典中
 if "amy" in d:
-  d.pop("amy")   #删除键值对，并且返回值
+  d.pop("amy")   # 删除键值对，并且返回值
 ```
+
+
+## 字符串
+
+字符串与 list 转换
+```python
+# 字符串 s 转为 list
+oneList = list(s)  
+
+# list 合并为字符串 s
+s = ''.join(onList)
+
+```
+
