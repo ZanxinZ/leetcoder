@@ -95,5 +95,7 @@ oneList = list(s)
 # list 合并为字符串 s
 s = ''.join(onList)
 
+# to lower case
+s = s.lower()
 ```
 
