@@ -99,3 +99,9 @@ s = ''.join(onList)
 s = s.lower()
 ```
 
+## 数字操作
+```python 
+a = round(3.5) # 4 四舍五入
+b = cell(3.5)  # 4
+c = floor(3.5) # 3
+```
