@@ -105,3 +105,14 @@ a = round(3.5) # 4 四舍五入
 b = cell(3.5)  # 4
 c = floor(3.5) # 3
 ```
+
+## 随机数
+```python
+import random
+import datetime
+random.seed(datetime.datetime.now())
+ran = random.randint(0, 5) # 随机一个数字 ran，且 0 <= ran <= 5
+
+group = [2, 5, 6]
+r = random.choice(group) # 从数组随机选一个
+```
