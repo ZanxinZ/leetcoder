@@ -116,3 +116,9 @@ ran = random.randint(0, 5) # 随机一个数字 ran，且 0 <= ran <= 5
 group = [2, 5, 6]
 r = random.choice(group) # 从数组随机选一个
 ```
+
+## 二进制
+```python
+b = bin(4)		# 结果为 0b1000
+s = str(bin(4))[2:]	# 只取后面数字的部分
+```
