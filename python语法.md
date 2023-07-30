@@ -122,3 +122,11 @@ r = random.choice(group) # 从数组随机选一个
 b = bin(4)		# 结果为 0b1000
 s = str(bin(4))[2:]	# 只取后面数字的部分
 ```
+
+## 排序
+```python
+group = [[1,2], [5,6], [3, 4]]
+group.sort(key=lambda x: x[0]) 	# 以组内元素的第一个子元素为参考进行排序
+newGroup = sorted(group)        # 排序结果放在新的 list   
+```
+
