@@ -22,3 +22,14 @@ print(math.floor(-a))  # 结果 -13，floor 是取小值，不能指定位数
 print(math.floor)      # 结果 12
 
 ```
+
+### 字符串
+
+```python
+a = 'S'
+a.isupper()
+a.islower()
+a.upper()
+a.lower()
+
+```
